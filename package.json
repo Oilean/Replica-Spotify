@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "mongodb": "^6.13.0"
-  }
+  },
+  "name": "replica-spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oilean/Replica-Spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oilean/Replica-Spotify/issues"
+  },
+  "homepage": "https://github.com/Oilean/Replica-Spotify#readme",
+  "description": ""
 }
